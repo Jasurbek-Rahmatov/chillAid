@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+     color: #fff;
+}
+
+.nav__bar {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.home, ul, li, a {
+    margin: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+span {
+    color: #97BDAB;
+    font-size: 50px;
+}
+
+.flower {
+    width: 100%;
+    height: 600px;
+    background-image: url('flower_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+button {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #fff;
+    background-color: #8e9e9e;
+    color: white;
+    position: absolute;
+    top: 400px;
+    right: 45%;
+    transition: all 500ms ease;
+}
+/*  
+
+button:hover {
+    background-color: none;
+    color: white;
+    border: 1px solid #fff;
+    opacity: 0.3;
+} */
+
+button:hover {
+    background: rgba(0,0,0,0);
+    color: #fff;
+    box-shadow: inset 0 0 0 1px #fff;
+}
+
+.grid {
+    width: 500px;
+    height: 230px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+}
+
+.grid_1 {
+    width: 250px;
+    height: 230px;
+    background-color: #97A9BD;
+    text-align: center;
+    border-radius:  60px 1px;
+    box-shadow: 4px 4px 4px 4px rgba(98, 100, 100, 0.2);
+}
+
+.grid_1:hover {
+    background: #fff;
+    color: black;
+}
+
+
+#box1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #A197BD;
+}
+
+i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: #fff;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.grid_2 {
+    width: 250px;
+    height: 230px;
+    background-color: #9575ba;
+    text-align: center;
+    border-radius:  60px 1px;
+    box-shadow: 4px 4px 4px 4px rgba(98, 100, 100, 0.2);
+}
+
+#box2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #9575ba;
+}
+
+.content2 {
+    margin-top: 30px;
+}
+
+.grid_3 {
+    width: 250px;
+    height: 230px;
+    background-color: #8a8784;
+    text-align: center;
+    border-radius:  60px 1px;
+    box-shadow: 4px 4px 4px 4px rgba(98, 100, 100, 0.2);
+}
+
+.content3 {
+    margin-top: 30px;
+}
+
+.grid_4 {
+    width: 250px;
+    height: 230px;
+    background-color: #678267;
+    text-align: center;
+    border-radius:  60px 1px;
+    box-shadow: 4px 4px 4px 4px rgba(98, 100, 100, 0.2);
+} 
+
+.content4 {
+    margin-top: 30px;
+}
+
+i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4, p {
+    color: white;
+}
+
+.photo {
+    width: 600px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0 60px;
+    position: absolute;
+    top: 900px;
+    left: 100px;
+}
+
+.one {
+    width: 550px;
+    height: 400px;
+    background-image: url('velik.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.two {
+    width: 550px;
+    height: 400px;
+    background-image: url('car.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text1 {
+    width: 600px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 1300px;
+    right: 650px;
+}
+
+.text2 {
+    width: 600px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 1300px;
+    right: -10px;
+}
+
+.foto {
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    top: 1400px;
+    left: 0;
+    background-image: url('sky.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid__foto {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.grid__foto > div {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+}
+
+.foto_1 > i{
+    background-color: #97A9BD;
+    color: white;
+    margin-top: 25px;
+}
+
+.foto_1 > p{
+    font-size: 18px;
+    color: black;
+    opacity: 0.6;
+}
+
+.foto_1 > h5 {
+    font-size: 20px;
+    color: #3f3c3c;
+    opacity: 0,5;
+}
+
+.krug {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 40px;
+    border-radius: 50% solid black;
+}
+
+
+
+
